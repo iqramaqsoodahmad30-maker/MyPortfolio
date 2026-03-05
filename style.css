@@ -360,4 +360,18 @@ color:white;
 text-align:center;
 padding:20px;
 }
+/* DARK MODE */
+
+.dark{
+background:#111;
+color:white;
+}
+
+.dark nav{
+background:#222;
+}
+
+.dark .project-card{
+background:#333;
+}
 
