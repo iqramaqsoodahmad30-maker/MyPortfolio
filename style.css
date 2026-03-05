@@ -1,4 +1,6 @@
-/* ABOUT SECTION */
+html{
+  scroll-behavior:smooth;
+}/* ABOUT SECTION */
 #about {
   padding: 80px 20px;
   background: #f1f1f1;
