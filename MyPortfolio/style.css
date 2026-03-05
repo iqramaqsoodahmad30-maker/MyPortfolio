@@ -22,6 +22,10 @@
   padding: 80px 20px;
   background: #ffffff;
   text-align: center;
+} .profile-pic{
+width:150px;
+border-radius:50%;
+margin-bottom:20px;
 }
 
 #projects h2 {
@@ -228,4 +232,5 @@ body {
 
 #contact button:hover {
   background: #89f7fe;
+
 }
