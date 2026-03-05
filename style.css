@@ -22,6 +22,10 @@
   padding: 80px 20px;
   background: #ffffff;
   text-align: center;
+} .profile-pic{
+width:150px;
+border-radius:50%;
+margin-bottom:20px;
 }
 
 #projects h2 {
@@ -230,3 +234,35 @@ body {
   background: #89f7fe;
 
 }
+.btn{
+background:white;
+color:#66a6ff;
+padding:12px 25px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+} #skills{
+padding:80px;
+text-align:center;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+
+.skills-container p{
+background:#66a6ff;
+color:white;
+padding:10px 20px;
+border-radius:20px;
+}
+footer{
+text-align:center;
+padding:20px;
+background:#333;
+color:white;
+}
+
