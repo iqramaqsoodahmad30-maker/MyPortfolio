@@ -233,4 +233,22 @@ background:#222;
 
 .dark .project-card{
 background:#333;
+}   .project-buttons{
+display:flex;
+gap:10px;
+justify-content:center;
+margin-top:10px;
+}
+
+.btn2{
+background:#333;
+color:white;
+padding:12px 25px;
+border-radius:5px;
+text-decoration:none;
+font-weight:bold;
+}
+
+.btn2:hover{
+background:#555;
 }
