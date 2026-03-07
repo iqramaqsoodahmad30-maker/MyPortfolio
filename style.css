@@ -102,6 +102,9 @@ transition:0.3s;
 
 .btn:hover{
 background:#f0f0f0;
+}.project-card h3{
+margin-top:10px;
+font-size:18px;
 }
 
 .btn2{
