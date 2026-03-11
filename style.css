@@ -281,3 +281,12 @@ font-size:30px;
 margin-bottom:5px;
 color:#00adb5;
 }
+#case-study {
+text-align: center;
+padding: 60px 20px;
+}
+
+#case-study .project-card{
+max-width: 500px;
+margin: auto;
+}
