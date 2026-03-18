@@ -249,7 +249,10 @@ text-align:center;
 text-align:center;
 padding:60px 20px;
 }
-
+img {
+  width: 300px;
+  border-radius: 10px;
+}
 .stats-container{
 display:flex;
 justify-content:center;
