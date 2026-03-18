@@ -102,7 +102,9 @@ transition:0.3s;
 
 .btn:hover{
 background:#f0f0f0;
-cursor:pointer;
+}.project-card h3{
+margin-top:10px;
+font-size:18px;
 }
 
 .btn2{
@@ -116,7 +118,6 @@ font-weight:bold;
 
 .btn2:hover{
 background:#555;
-cursor:pointer;
 }
 
 /* ABOUT */
@@ -189,18 +190,13 @@ box-shadow:0 5px 20px rgba(0,0,0,0.08);
 
 .project-card:hover{
 transform:translateY(-8px);
-cursor:pointer;
+  cursor:pointer;
 }
 
 .project-card img{
 width:100%;
 border-radius:8px;
 margin-bottom:15px;
-}
-
-.project-card h3{
-margin-top:10px;
-font-size:18px;
 }
 
 .project-card p{
@@ -214,65 +210,6 @@ display:flex;
 gap:10px;
 justify-content:center;
 margin-top:15px;
-}
-
-/* CASE STUDY (CLIENT PROJECT) */
-
-#case-study{
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
-padding:60px 20px;
-text-align:center;
-}
-
-#case-study .project-card{
-max-width:500px;
-margin-top:20px;
-padding:25px;
-border-radius:12px;
-box-shadow:0 10px 25px rgba(0,0,0,0.1);
-background:white;
-}
-
-/* SERVICES */
-
-#services{
-padding:80px 20px;
-text-align:center;
-}
-
-/* STATS */
-
-#stats{
-text-align:center;
-padding:60px 20px;
-}
-img {
-  width: 300px;
-  border-radius: 10px;
-}
-.stats-container{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:40px;
-margin-top:30px;
-}
-
-.stat{
-background:#111;
-color:white;
-padding:25px 40px;
-border-radius:10px;
-font-size:18px;
-}
-
-.stat h3{
-font-size:30px;
-margin-bottom:5px;
-color:#00adb5;
 }
 
 /* CONTACT */
@@ -310,14 +247,10 @@ background:#222;
 .dark .project-card{
 background:#333;
 color:white;
-}
-
-/* HEADINGS STYLE */
-
-h2{
+} h2{
 font-size:34px;
 margin-bottom:20px;
-background:linear-gradient(90deg,#66a6ff,#89f7fe);
+background: linear-gradient(90deg,#66a6ff,#89f7fe);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 font-weight:700;
